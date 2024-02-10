@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #831be4
+    ;
+}
+.button{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #e5f4f4;
+    
+}
+#white{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #e5f4f4;
+    
+}
+#green{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #15ff00;
+    
+}
+#red{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    
+}
+#yellow{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(242, 255, 0);
+    
+}

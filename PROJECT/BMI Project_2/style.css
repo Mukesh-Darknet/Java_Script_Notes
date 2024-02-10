@@ -1,0 +1,25 @@
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: #effb09;
+    color: #000000;
+    border-radius: 5px;
+}
+.form{
+    margin: 70px;
+}
+.head{
+    font-style: italic;
+    color: blue;
+     margin: 50px; 
+}
+#height{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px solid red;
+}
+#weight{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px solid red;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>RADHE RADHE RADHE</h1>
+    <button id="strt">SRART</button>
+    <button id="stp">STOP</button>
+</body>
+<script>
+    //   setInterval(function(){
+    //     console.log("Good Morning",  Date.now());
+    // },2000)
+    
+//     const date = function(){
+//         console.log("good morning",Date.now());
+//     }
+
+//    const stop= setInterval(date, 1000)
+//    clearInterval(stop)
+
+      const sms =function(){
+        console.log("goood morning");
+      }
+
+    //    setInterval(sms , 2000)
+    //   const set = setInterval(sms , 2000)
+
+
+      const start =  document.querySelector('#strt').addEventListener('click',function(){
+        console.log("Lets start the Wises");
+        setInterval(sms , 2000);
+        // console.log("Lets start the Interval");
+       
+
+      })
+
+      const stoped = setInterval(sms,2000)
+      document.querySelector('#stp').addEventListener('click' , function(){
+        console.log(" Stooped the Wises");
+
+        clearInterval(stoped);
+        // console.log(" Stooped the interval");
+
+      })
+
+</script>
+</html>

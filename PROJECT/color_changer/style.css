@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#btn{
+    font-size: larger;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: aqua;
+   
+}
