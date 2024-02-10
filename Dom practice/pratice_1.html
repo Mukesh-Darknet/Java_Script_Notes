@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Dom</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main";
+    div.id = Math.round (Math.random() *10 + 1)
+    div.setAttribute("title","mukesh title")
+    div.style.backgroundColor="green"
+    div.style.color="blue"
+    div.style.borderRadius="5px"
+    div.style.padding="20px"
+
+    div.innerText = "HELLO MUKESH YADAV HOW ARE YOU"
+   
+    document.body.appendChild(div)
+
+    // or
+
+    // const addtext = document.createTextNode("Hello mukesh")
+    // div.appendchild(addtext)
+
+    // document.body.appendChild(div)
+    
+</script>
+</html>

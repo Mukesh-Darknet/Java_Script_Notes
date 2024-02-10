@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .highlight{
+        background-color: #29e836;
+    }
+   </style>
+</head>
+<body>
+    <script src="/D O M/dom.js"></script>
+    <h1>dom selector</h1>
+    <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore atque nemo mollitia fugiat ipsa voluptate ullam earum natus quo expedita.</p>
+    <p id="par">mukesh yadav in invertis university</p>
+    <ol>
+        <li class="iten">mukesh</li>
+        <li class="iten">manish</li>
+        <li class="iten">himansu</li>
+        <li class="iten">ayush</li>
+    </ol>
+    <script>
+        console.log(document.getElementById('para'));
+        console.log(document.getElementById('par'));
+
+        const paragraph=document.getElementById('para')
+        paragraph.addEventListener('click',()=>{
+            paragraph.classList.toggle('highlight')
+        })
+
+        const item=doument.getelementbyClassName('iten')
+    </script>
+    
+</body>
+</html>

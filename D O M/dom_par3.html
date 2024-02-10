@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom part 3</title>
+</head>
+<body>
+    <!-- event listner in java script
+    1-click,dblclick,mouseinter etc -->
+    <h2>Good morning mukesh</h2>
+    <h2 id="para"></h2>
+    
+    <button id="btn" onclick="hi()">submit</button>
+
+
+    <script>
+
+        document.addEventListener('click',para1)
+        function para1(){
+            document.getElementById('para').innerText='Best of luck'
+        }
+
+        function hi(){
+            document.getElementById('btn').innerText='Log in'
+            document.getElementById('btn').style.backgroundColor='blue'
+            document.getElementById('btn').style.color='black'
+            document.getElementById('btn').style.padding='10px'
+            document.getElementById('btn').style.border='4px solid black'
+            
+        }
+
+    </script>
+    
+</body>
+</html>

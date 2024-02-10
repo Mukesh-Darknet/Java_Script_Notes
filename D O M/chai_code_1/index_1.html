@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom learning</title>
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">my name is mukesh</h1>
+        <p class="para">you are good in technology</p>
+
+    </div>
+    <ul class="list">
+        <li class="one">mukesh</li>
+        <li class="two">mahesh</li>
+        <li class="three">manish</li>
+    </ul>
+
+    <div class="parent">
+        <!-- <h1>january</h1>
+        <h1>feb</h1>
+        <h1>march</h1> -->
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thursday</div>
+        <div class="day">friday</div>
+    </div>
+   
+    
+</body>
+
+<script>
+    // Change Node list and Html collectio into array
+    // By--- Array.from(variable name)
+
+
+
+
+
+
+ const parent =   document.querySelector('.parent')
+//  console.log(parent);
+ console.log(parent.children[2]);
+ console.log(parent.children[3].innerHTML);
+
+//  for(let i=0;i<parent.children.length;i++){
+//     console.log(parent.children[i].innerHTML);
+//  }
+for(let i=0;i<parent.children.length;i++){
+    console.log(parent.children[i].innerHTML);
+}
+
+ parent.children[2].style.color='green';
+ parent.children[3].style.backgroundColor="green"
+ console.log(parent.firstElementChild);
+//  console.log(parent.lastElementChild);
+
+  const dayone =document .querySelector('.day')
+//   console.log(dayone);
+//   console.log(dayone.parentElement);
+// console.log(dayone.nextElementSibling);
+
+//  Learn  Node List 
+console.log('Nodes : ',parent.childNodes);
+
+
+
+
+</script>
+</html>

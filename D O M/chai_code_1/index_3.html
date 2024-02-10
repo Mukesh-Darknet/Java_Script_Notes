@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code with chai</title>
+</head>
+<body>
+    <ul class="language">
+        <li>mukesh</li>
+        
+    </ul>
+    
+</body>
+<script>
+    function addtext(langName){
+        const list=document.createElement('li');
+        list.innerHTML=`${langName}`
+        document.querySelector('.language').
+        appendChild(list)
+        
+    }
+
+    addtext('manish');
+    addtext('ayush');
+    addtext('himanshu');
+    addtext('mukesh');
+    addtext('You can add more name');
+
+</script>
+</html>
